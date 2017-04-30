@@ -12,6 +12,6 @@ const getMiddleware = () => {
   }
 }
 
-const store = createStore(reducer, getMiddleware(), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+const store = createStore(reducer, getMiddleware());
 
 export default store;
